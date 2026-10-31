@@ -20,10 +20,21 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.rishab829.SecureDetailsHolder"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-sharing",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bb3ef02f-e04a-4a05-8d5c-c89f3888a266"
+      }
     }
   }
 }
